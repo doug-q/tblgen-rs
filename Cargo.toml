@@ -7,11 +7,13 @@ description = "Safe Rust bindings for TableGen."
 repository = "https://gitlab.com/Danacus/tblgen-rs"
 documentation = "https://danacus.gitlab.io/tblgen-rs/tblgen/"
 exclude = ["doc/"]
+links = "LLVMTableGen"
 
 [features]
 default = ["llvm16-0"]
 llvm16-0 = []
 llvm17-0 = []
+llvm18-0 = []
 
 [dependencies]
 thiserror = "1"

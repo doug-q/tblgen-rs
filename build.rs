@@ -10,6 +10,8 @@ use std::{
 const LLVM_MAJOR_VERSION: usize = 16;
 #[cfg(feature = "llvm17-0")]
 const LLVM_MAJOR_VERSION: usize = 17;
+#[cfg(feature = "llvm18-0")]
+const LLVM_MAJOR_VERSION: usize = 18;
 
 fn main() {
     if let Err(error) = run() {
